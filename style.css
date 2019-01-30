@@ -434,6 +434,7 @@ body {
   align-self: center;
   flex: 1 0 auto;
   display: block;
+  /* add in a color that has a better contrast ratio */
 }
 
 .main-navigation li {
