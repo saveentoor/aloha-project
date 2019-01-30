@@ -92,6 +92,7 @@ video {
   vertical-align: baseline;
   box-sizing: border-box;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -106,17 +107,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1px;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -124,15 +129,16 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 @font-face {
   font-family: "PD bold";
   src: url("fonts/PlayfairDisplay-Bold_2.eot");
-  src: url("fonts/PlayfairDisplay-Bold_2.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("fonts/PlayfairDisplay-Bold_2.eot?#iefix") format("embedded-opentype"),
     url("fonts/PlayfairDisplay-Bold_2.woff2") format("woff2"),
     url("fonts/PlayfairDisplay-Bold_2.woff") format("woff"),
     url("fonts/PlayfairDisplay-Bold_2.ttf") format("truetype"),
@@ -140,16 +146,15 @@ table {
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "pd reg";
   src: url("fonts/PlayfairDisplay-Regular_1.eot");
-  src: url("fonts/PlayfairDisplay-Regular_1.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("fonts/PlayfairDisplay-Regular_1.eot?#iefix") format("embedded-opentype"),
     url("fonts/PlayfairDisplay-Regular_1.woff2") format("woff2"),
     url("fonts/PlayfairDisplay-Regular_1.woff") format("woff"),
     url("fonts/PlayfairDisplay-Regular_1.ttf") format("truetype"),
-    url("fonts/PlayfairDisplay-Regular_1.svg#PlayfairDisplay-Regular")
-      format("svg");
+    url("fonts/PlayfairDisplay-Regular_1.svg#PlayfairDisplay-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -177,6 +182,7 @@ table {
   font-weight: 300;
   font-style: normal;
 }
+
 html {
   font-size: 14px;
 }
@@ -209,9 +215,11 @@ h1 {
 section {
   padding: 4rem 0;
 }
+
 section h2 {
   text-align: center;
 }
+
 h2 {
   font-size: 2.6rem;
   font-style: italic;
@@ -219,13 +227,16 @@ h2 {
   font-family: "pd reg";
   line-height: 1;
 }
+
 .heavy {
   font-style: normal;
   font-weight: 900;
 }
+
 .about-text p {
   font-size: 14px;
 }
+
 .featured-container {
   padding: 0;
 }
@@ -237,11 +248,13 @@ h2 {
   margin-inline-end: 0px;
   text-align: center;
 }
+
 .product-type {
   font-size: 0.75rem;
   margin-bottom: 0.75rem;
   text-transform: uppercase;
 }
+
 .price,
 .product-type {
   color: #969696;
@@ -283,6 +296,7 @@ h6 {
   margin-inline-start: 0px;
   margin-inline-end: 0px; */
 }
+
 a {
   font-family: "r light";
   color: #e2574c;
@@ -319,19 +333,22 @@ h5 {
   display: block;
   text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
 }
+
 .sign-up-wrapper {
   text-align: center;
   width: 600px;
   margin: 0 auto;
   position: relative;
 }
+
 .network-name {
   display: inline-block;
 }
+
 .newsletter p {
   font-size: 14px;
   color: white;
-  font-style: "r light";
+  font-style: bold;
 }
 
 #subscribe {
@@ -353,6 +370,7 @@ h5 {
   margin: 0 auto;
   position: relative;
 }
+
 .sign-up-wrapper {
   padding-bottom: 1rem; /// look at
 }
@@ -368,6 +386,7 @@ input {
   outline: none;
   border-radius: 15px;
 }
+
 input[type="email"] {
   padding: 0.5rem 1.75rem;
   padding-right: 150px;
@@ -375,6 +394,7 @@ input[type="email"] {
   border: 0;
   border-radius: 25px;
 }
+
 input[type="submit"] {
   background-color: #e2574c;
   color: #fff;
@@ -397,27 +417,32 @@ body {
   font-weight: 400;
   line-height: 2;
 }
+
 .season {
   font-family: "pd reg";
   font-size: 2.5rem;
   text-align: center;
 }
+
 .container {
   padding: 0 2%;
   margin: 0 auto;
   width: 100%;
 }
+
 .main-navigation {
   align-self: center;
   flex: 1 0 auto;
   display: block;
 }
+
 .main-navigation li {
   display: inline-block;
   font-weight: 700;
   margin: 0 1rem;
   text-transform: uppercase;
 }
+
 .main-navigation ul {
   border-top: 1 px solid #d7d7d7;
   padding-top: 0.5rem;
@@ -442,18 +467,22 @@ footer {
   padding: 4rem 0;
   text-align: center;
 }
+
 .container {
   padding: 0 2%;
   margin: 0 auto;
   width: 100%;
 }
+
 .colophon {
   line-height: 1.5;
 }
+
 .contact,
 .copyright {
   margin-bottom: 1rem;
 }
+
 h4 {
   color: #969696;
   font-family: "R light";
@@ -469,6 +498,7 @@ h4 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+
 .social {
   font-family: "Raleway Web,sans-serif";
   margin: 1rem auto 0 auto;
@@ -476,10 +506,12 @@ h4 {
   text-align: center;
   padding: 0rem;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 .social li {
   display: inline-block;
   align-items: center;
@@ -491,6 +523,7 @@ ul {
 html {
   font-size: 14px;
 }
+
 head {
   display: none;
 }
@@ -509,6 +542,7 @@ head {
   flex: 1 0 20%;
   padding-top: 2%;
 }
+
 .screen-reader {
   border: 0;
   clip: rect(0 0 0 0);
@@ -519,6 +553,7 @@ head {
   position: absolute;
   width: 1px;
 }
+
 .logo img {
   max-width: 120px;
   height: auto;
@@ -545,6 +580,7 @@ head {
 .cart img {
   width: 50px;
 }
+
 img {
   height: auto;
   max-width: 50px;
@@ -604,9 +640,11 @@ li {
 .newsletter p {
   text-shadow: 2px 2px 4px hsla(0, 0%, 39%, 0.8);
 }
+
 section h2 {
   text-align: center;
 }
+
 h2 {
   font-style: "pd reg";
   font-size: 50x;
@@ -621,6 +659,7 @@ h2 {
   height: 50%;
   width: 100%;
 }
+
 .category-name {
   text-transform: uppercase;
   color: white;
@@ -631,6 +670,7 @@ h2 {
   font-size: 30px;
   transform: translate(-50%, -50%);
 }
+
 .category-rectangular {
   position: relative;
   height: 200px;
@@ -638,6 +678,7 @@ h2 {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
 }
+
 .category-square {
   position: relative;
   height: 200px;
@@ -665,6 +706,7 @@ h2 {
   position: relative;
   border-left: 4px solid white;
 }
+
 .sale {
   background: url("images/sale-category.jpg") no-repeat 50%;
   background-size: cover;
@@ -684,6 +726,7 @@ h2 {
   background-size: cover;
   position: relative;
 }
+
 img {
   height: auto;
   max-width: 100%;
@@ -695,11 +738,13 @@ img {
   margin-bottom: 0.75rem;
   text-transform: uppercase;
 }
+
 .price,
 .product-type {
   color: #969696;
   text-align: center;
 }
+
 h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -708,6 +753,7 @@ h3 {
   line-height: 1;
   text-align: center;
 }
+
 img {
   height: auto;
   max-width: 100%;
@@ -730,6 +776,7 @@ img {
   width: 100%;
   font-style: "R light";
 }
+
 ol {
   display: block;
   list-style-type: decimal;
@@ -739,6 +786,7 @@ ol {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+
 p {
   font-family: "R light";
   font-size: 14px;
@@ -750,6 +798,7 @@ p {
 .network-name {
   display: none;
 }
+
 /* Media Queries */
 
 /* Tablet */
@@ -759,18 +808,22 @@ p {
     height: 300px;
     border: 4px solid white;
   }
+
   .carousel-cell {
     width: 50%;
   }
+
   .category-square {
     width: 25%;
     border: 4px solid white;
     height: 300px;
   }
+
   .mens,
   .sale {
     border-left: 0;
   }
+
   .glasses,
   .womens {
     border-right: 0;
@@ -790,6 +843,7 @@ p {
     flex: 0 1 20%;
     order: 3;
   }
+
   footer {
     flex-flow: row;
   }
@@ -798,14 +852,17 @@ p {
     display: block;
     padding-left: 60rem;
   }
+
   .network-name {
     display: inline-block;
   }
+
   .site-footer {
     text-align: left;
     padding: 1rem;
   }
 }
+
 /* Desktop */
 @media screen and (min-width: 1240px) {
   .logo {
